@@ -1,2 +1,0 @@
-# g
-First Roblox HACK!!
