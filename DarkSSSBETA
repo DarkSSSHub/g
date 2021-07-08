@@ -1,0 +1,70 @@
+if game.PlaceId == 2753915549 then
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("SSSHub Beta", "Synapse")
+local Tab = Window:NewTab("Teleport")
+local Section = Tab:NewSection("Teleport :3")
+Section:NewButton("Pirate Start", "TP you to Pirate Start", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1167, 16, 1398))
+end)
+
+Section:NewButton("Middle Town", "TP you to Middle Town", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-659, 7, 1446))
+end)
+
+Section:NewButton("Marine Start", "TP you to Marine Start", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2872, 41, 1911))
+end)
+
+Section:NewButton("Jungle", "TP you to Jungle", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1427, 11, 482))
+end)
+
+Section:NewButton("Pirate Village", "TP you to Pirate Village", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1125, 4, 3866))
+end)
+
+Section:NewButton("Desert", "TP you to Desert", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(891, 3, 4104))
+end)
+
+Section:NewButton("Frozen Village", "TP you to Frozen Village", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1110, 7, -1157))
+end)
+
+Section:NewButton("Marine Fortress", "TP you to Marine Fortress", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-4910, 41, 4425))
+end)
+
+Section:NewButton("SkyPiea 1", "TP you to SkyPiea 1", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-4918, 707, -2630))
+end)
+
+Section:NewButton("Prison/Imple Down", "TP you to Prison/Imple Down", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(4852, 5, 734))
+end)
+
+Section:NewButton("Colosseum", "TP you to Colosseum", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-1393, 7, -2817))
+end)
+
+Section:NewButton("Magma Village/Volcano", "TP you to Magma Village/Volcano", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-5238, 8, 8472))
+end)
+
+Section:NewButton("Underwater City Spawn Point", "TP you to Underwater City Spawn Point", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(3860, 5, -1918))
+end)
+
+Section:NewButton("Underwater City", "TP you to Underwater City", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(61169, 18, 1636))
+end)
+
+Section:NewButton("Skypiea 2", "TP you to Skypiea 2", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-7887, 5545, -343))
+end)
+
+Section:NewButton("Fountain City", "TP you to Fountain City", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(5184, 38, 4130))
+end)
+
+end
