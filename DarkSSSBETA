@@ -13,18 +13,6 @@ end)
 
 end)
 
-
-
-
-
-
-
-
-
-
-
---------------------------------------------------------Tp
-
 local Tab = Window:NewTab("Teleport")
 local Section = Tab:NewSection("Teleport :3")
 Section:NewButton("Pirate Start", "TP you to Pirate Start", function()
